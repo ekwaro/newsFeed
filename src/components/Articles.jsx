@@ -45,7 +45,7 @@ const Articles = () => {
       <Grid gutter="md">
         {articles?.map((article) => {
           return (
-            <Grid.Col key={article.id} span={{ base: 12, sm: 6, md: 4, lg: 3 }}>
+            <Grid.Col key={article.id} span={{ base: 12, sm: 6, md: 4, lg: 4 }}>
               <Card shadow="md" padding="md" radius="md" withBorder>
                 <CardSection>
                   <Image

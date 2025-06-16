@@ -7,7 +7,8 @@ import { Provider } from "react-redux";
 import { createTheme, MantineProvider } from "@mantine/core";
 import App from "./App.jsx";
 import Articles from "./components/Articles.jsx";
-import NewDetails from "./components/newsDetail.jsx";
+
+import NewDetails from "./components/NewsDetails.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import '@mantine/core/styles.css';
 
