@@ -7,7 +7,7 @@ export const fetchArticles = createAsyncThunk(
   "articles/fetchArticles",
   async (page = 1) => {
     const res = await fetch(
-      `http://localhost:1337/api/posts?pagination[page]=${page}&pagination[pageSize]=${PAGE_SIZE}&populate=*`
+      `https://news-feed-vooc.onrender.com/api/posts?pagination[page]=${page}&pagination[pageSize]=${PAGE_SIZE}&populate=*`
     );
     const data = await res.json();
     return {
